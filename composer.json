@@ -1,8 +1,12 @@
 {
     "name": "ollieread/multiauth",
     "description": "Multiple auth driver for Laravel",
-	"keywords": ["laravel", "multi", "auth"],
-	"license": "MIT",
+    "keywords": [
+        "laravel",
+        "multi",
+        "auth"
+    ],
+    "license": "MIT",
     "authors": [
         {
             "name": "Ollie Read",
@@ -11,11 +15,11 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/auth": "~4.1|~4.2",
-        "illuminate/console": "~4.1|~4.2",
-        "illuminate/database": "~4.1|~4.2",
-        "illuminate/filesystem": "~4.1|~4.2",
-        "illuminate/support": "~4.1|~4.2"
+        "illuminate/auth": "~4.1|~4.2|^9.0",
+        "illuminate/console": "~4.1|~4.2|^9.0",
+        "illuminate/database": "~4.1|~4.2|^9.0",
+        "illuminate/filesystem": "~4.1|~4.2|^9.0",
+        "illuminate/support": "~4.1|~4.2|^9.0"
     },
     "autoload": {
         "psr-0": {
